@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="flex">
+      <div class="header1 flex">
+        <h1 class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="숲나들이" /></a>
+          <a href="index.html" class="logo2">숲길</a>
+        </h1>
+        <nav>
+          <h2 class="blind">주메뉴</h2>
+          <ul class="gnb flex">
+            <li><a href="">숲길예약</a></li>
+            <li><a href="">숲길정보</a></li>
+            <li><a href="">참여마당</a></li>
+          </ul>
+        </nav>
+        <div class="util flex">
+          <p class="srch">
+            <label for="srch" class="blind">검색어를 입력하세요</label>
+            <input type="text" id="srch" class="srchBtn" />
+            <input type="image" alt="검색" src="images/fs_util_search.png" />
+          </p>
+          <p class="vp1099">
+            <button type="button">
+              <img src="images/fs_util_my.png" alt="마이페이지" />
+            </button>
+          </p>
+          <p class="vp1099">
+            <button type="button">
+              <img src="images/fs_util_sitemap.png" alt="사이트맵" />
+            </button>
+          </p>
+          <p class="pc">
+            <button type="button">
+              <img src="images/hr_util_icon_03.png" alt="전체메뉴보기" />
+            </button>
+          </p>
+        </div>
+      </div>
+      <div class="header2">
+        <p>이 누리집은 대한민국 공식 전자정부 누리집입니다.</p>
+        <div class="flex">
+          <ul class="flex site">
+            <li><a href="">자연휴양림</a></li>
+            <li class="on"><a href="">숲길</a></li>
+            <li><a href="">산림레포츠</a></li>
+          </ul>
+          <ul class="flex util2">
+            <li class="signIn"><a href="login.html">로그인</a></li>
+            <li class="signUp"><a href="">회원가입</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="visual">
+        <h2>진한 숲 내음 가득 장성 축령산 편백숲</h2>
+        <img
+          src="images/eco_visual_txt_frtrl.png"
+          alt="아름다운 숲길 자연과 사람이 함께하는 숲길입니다."
+        />
+      </section>
+      <!--예약관련-->
+      <section class="res flex">
+        <h2 class="blind">예약하기</h2>
+        <!--장소설정-->
+        <section class="where">
+          <h3>숲길</h3>
+          <ul>
+            <li>전체</li>
+            <li>DMZ펀치볼둘레길</li>
+            <li>점봉산 곰배령 산림생태탐방</li>
+            <li>울진금상소나무숲길</li>
+            <li>한남사려니오름숲</li>
+            <li>백두대간트레일</li>
+            <li>홍릉시험림</li>
+          </ul>
+        </section>
+        <!--날짜설정-->
+        <section class="date">
+          <h3>날짜선택</h3>
+        </section>
+        <!--인원설정-->
+        <section class="pCount flex">
+          <h3>인원</h3>
+          <div class="pCountWrap flex">
+            <!--추가-->
+            <button type="button" class="pBtn1 pBtn" id="pBtn1">
+              <span class="blind">인원삭제</span>
+            </button>
+            <p class="selP" id="selP">1</p>
+            <button type="button" class="pBtn2 pBtn" id="pBtn2">
+              <span class="blind">인원추가</span>
+            </button>
+          </div>
+        </section>
+        <p><button>조회</button></p>
+      </section>
+      <!--공지사항, 바로가기-->
+      <section class="noticeWrap">
+        <!--100% 배경이미지-->
+        <div class="inner flex nw">
+          <!--1400px-->
+          <section class="notice">
+            <h2>공지사항</h2>
+            <ul class="flex">
+              <li>
+                <a href="" class="flex">
+                  <div class="CreationDate">
+                    <strong>02</strong><span>2025.06</span>
+                  </div>
+                  <strong>2025년 청소년 산림생태탐방 참가자 모집</strong>
+                </a>
+              </li>
+              <li>
+                <a href="" class="flex">
+                  <div class="CreationDate">
+                    <strong>26</strong><span>2025.03</span>
+                  </div>
+                  <strong>2025년 봄철 산불조심기간 안내</strong>
+                </a>
+              </li>
+              <li>
+                <a href="" class="flex">
+                  <div class="CreationDate">
+                    <strong>26</strong><span>2025.03</span>
+                  </div>
+                  <strong>산불방지 국민행동 요령 안내</strong>
+                </a>
+              </li>
+              <li>
+                <a href="" class="flex">
+                  <div class="CreationDate">
+                    <strong>26</strong><span>2025.03</span>
+                  </div>
+                  <strong>국가숲길 통제 안내</strong>
+                </a>
+              </li>
+            </ul>
+            <p class="more">
+              <a href="#" class="btn"
+                ><span class="blind">공지사항 더보기</span></a
+              >
+            </p>
+          </section>
+          <section class="path">
+            <h2>바로가기</h2>
+            <div class="bannerWrap">
+              <ul class="banner flex">
+                <li>
+                  <a href=""
+                    ><img
+                      src="images/ed774162-7e4e-46d3-85eb-8a2648137c30.jpg"
+                      alt="명품숲길"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img
+                      src="images/2a8dd25c-c87b-4377-8815-3946b0a18873.jpg"
+                      alt="국가숲길"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img
+                      src="images/02a7141f-4f65-49a5-bdf8-437a0a079e86.gif"
+                      alt="동서트레일"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <ul class="moveBtn flex">
+              <li>
+                <a href="" class="btn prev"
+                  ><span class="blind">이전배너보기</span></a
+                >
+              </li>
+              <li>
+                <a href="" class="btn next"
+                  ><span class="blind">다음배너보기</span></a
+                >
+              </li>
+              <li>
+                <a href="" class="btn toggle"
+                  ><span class="blind">정지버튼</span></a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
